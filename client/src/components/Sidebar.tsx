@@ -1,16 +1,30 @@
-function Sidebar() {
+// Defines what information the Sidebar component receives from App.tsx
+type SidebarProps = {
+  courses: string[]
+  onSelectCourse: (course: string) => void
+}
+
+function Sidebar({ courses, onSelectCourse }: SidebarProps) {
   return (
     <aside className="sidebar">
-      <h2>Clarify</h2>
+      <h1>Clarify</h1>
 
       <button>+ New Chat</button>
 
       <h3>My Courses</h3>
 
-      <p>SOEN 342</p>
-      <p>ELEC 275</p>
-      <p>PHIL 235</p>
-
+{courses.length === 0 ? (
+  <p>No courses yet</p>
+) : (
+  courses.map((course) => (
+    <p
+      key={course}
+      onClick={() => onSelectCourse(course)}
+    >
+      {course}
+    </p>
+  ))
+)}
       <button>+ Add Course</button>
     </aside>
   )
