@@ -44,18 +44,18 @@ Clarify allows students to ask questions about their course content through an A
 
 Make sure you have Node.js and npm installed.
 
-### Run Locally
+## Run Locally
 
 1. Clone the repository:
 
 ```bash
-git clone YOUR-REPOSITORY-URL
+git clone https://github.com/ShahSia/clarify-ai.git
 ```
 
-2. Navigate into the project:
+2. Navigate to the frontend:
 
 ```bash
-cd Clarify
+cd clarify-ai/client
 ```
 
 3. Install the dependencies:
