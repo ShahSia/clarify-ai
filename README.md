@@ -1,20 +1,20 @@
 # Clarify
 
-Clarify is an AI-powered study platform designed to help students interact with and better understand their course materials.
+Clarify is an AI-powered study platform currently in development. The goal is to allow students to organize their courses, upload course materials, and interact with their content through an AI-powered chatbot.
 
 ## About
 
-Clarify allows students to ask questions about their course content through an AI-powered chatbot. The goal is to make studying more interactive and provide students with clear explanations based on their own learning materials.
+Clarify allows students to ask questions about their course content through an AI-powered chatbot. The goal is to make studying more interactive, provide students with clear explanations based on their own learning materials, and track their learning progress as they cover and understand different topics.
 
 ## Current Features
 
-- Course selection and navigation
+- Responsive React and TypeScript user interface
+- Component-based frontend architecture
 - Interactive course sidebar
-- Responsive user interface
-- React component-based frontend
+- Course management structure for dynamically added courses
 
 ## Planned Features
-
+- Add and manage user courses
 - AI-powered chatbot
 - Course material uploads
 - User accounts and authentication
